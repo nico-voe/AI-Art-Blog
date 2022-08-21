@@ -17,6 +17,7 @@ h1 {
 .navItems {
   display: flex;
   list-style: none;
+  flex-wrap: wrap;
 }
 
 .topnav a {
