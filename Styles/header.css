@@ -1,0 +1,34 @@
+header {
+  grid-area: nav;
+}
+
+h1 {
+  color: white;
+  padding-left: 3rem;
+  text-shadow: 5px rgb(0, 0, 0);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(57, 32, 32, 0.74);
+}
+
+.navItems {
+  display: flex;
+  list-style: none;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
